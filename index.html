@@ -18,26 +18,42 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div id="mbody">
-      <div class="day">
-        <p>Day</p>
-        <button class="button-1">DD</button>
-      </div>
-
-      <p>Month</p>
-      <button class="button-1">MM</button>
-
-      <p>Year</p>
-      <button class="button-1">YYYY</button>
-
-      <div>
-        <p>-- years</p>
-        <br />
-        <p>-- months</p>
-        <br />
-        <p>-- days</p>
-        <br />
-      </div>
+    <form class="all">
+      
+      <div class="total">
+        <div class="button">
+        <label for="">Day</label><br>
+        <input type="" placeholder="Day"><br>
     </div>
+
+        <div class="button">
+          <label for="">Month</label><br>
+          <input type="" placeholder="Month"><br>
+        </div>
+
+        <div class="button">
+          <label for="">Year</label><br>
+        <input type="" placeholder="Year">
+        </div>
+      </div>
+      
+      <div class="line">
+        <hr class="horizontal">
+        <img class="image" src="assets/images/icon-arrow.svg" alt=""> 
+      </div>
+
+      <div class="before">
+        <p class="paragrapghs"> <span class="number">--</span>years</p>
+        <p class="paragrapghs"> <span class="number">--</span>Months</p>
+        <p class="paragrapghs"> <span class="number">--</span>days</p>
+      </div>
+      <div id="after">
+        <p class="paragrapgh"> <span class="number">38</span>years</p>
+        <p class="paragrapgh"> <span class="number">18</span>Months</p>
+        <p class="paragrapgh"> <span class="number">26</span>days</p>
+      </div>
+    </form>
+
+    <script src="script.js"></script>
   </body>
 </html>
